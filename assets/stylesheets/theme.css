@@ -1,6 +1,6 @@
 body {
-  background-color: #eeeeee;
-  color: #030303;
+  background-color: DarkSlateGray;
+  color: Cornsilk;
   margin: 0;
   padding: 0;
 }
@@ -10,8 +10,8 @@ body {
 }
 
 .content {
-  background-color: #030303;
-  color: #eeeeee;
+  background-color: Cornsilk;
+  color: DarkSlateGray;
   display: flex;
   padding: 15px;
 }
