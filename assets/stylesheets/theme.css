@@ -8,9 +8,9 @@ body {
 .nav {
   display: inline;
 }
-ul {
+.nav ul {
   display: inline;
-  margin: 15px
+  margin: 30px
 }
 .header {
   padding: 15px;
