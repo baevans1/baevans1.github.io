@@ -6,12 +6,16 @@ body {
 }
 
 .nav {
-  display: inline-block;
+  display: inline;
+}
+ul {
+  display: inline;
+  margin: 15px
 }
 .header {
   padding: 15px;
   text-align: right;
-  font-family: cursive;
+  font-family: cursive alt: sans-serif;
   }
 
 .content {
