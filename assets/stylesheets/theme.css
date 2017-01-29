@@ -5,12 +5,13 @@ body {
   padding: 0;
 }
 
-.nav {
-  display: inline;
+table{
+  border-collapse: collapse;
 }
-.nav ul {
-  display: inline;
-  margin: 30px
+th{
+  border 6px solid gray;
+  padding: 2em;
+  text-align: center;
 }
 .header {
   padding: 15px;
