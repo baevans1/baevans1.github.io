@@ -27,7 +27,7 @@ p {
   padding: 15px;
   text-align: center;
   vertical-align: middle;
-  font-family: cursive;
+  font-family: fantasy;
   }
 #interior {
   background-color: rgb(169,148,178);
@@ -36,17 +36,17 @@ p {
   height: 125px;
   position: absolute;
   top: 175px;
-  left: 500px;
+  left: 600px;
   z-index: 2;
 }
 #makeup{
   background-color: rgb(183,84,132);
   color: rgb(40,40,40);
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   position: absolute;
-  top: 110px;
-  left: 630px;
+  top: 120px;
+  left: 720px;
   z-index: 1;
 }
 #creative{
@@ -66,7 +66,7 @@ p {
     height: 75px;
     position: absolute;
     top: 370px;
-    left: 510px;
+    left: 630px;
     z-index: 3;
 
 }
