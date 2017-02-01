@@ -5,10 +5,9 @@ body {
 .sidebar {
   background-color: rgb(209,195,216);
   color: rgb(40,40,40);
-  margin: 10px;
   padding: 10px;
   float: left;
-  width: 30%;
+  width: 200px;
 }
 
 .header {
@@ -25,6 +24,8 @@ p {
 #interior, #makeup, #creative, #pitbull{
   border: 2px solid rgb(101,109,122);
   padding: 15px;
+  text-align: center;
+  vertical-align: middle;
   }
 #interior {
   background-color: rgb(169,148,178);
@@ -32,8 +33,8 @@ p {
   width: 125px;
   height: 125px;
   position: absolute;
-  top: 27%;
-  left: 55%;
+  top: 175px;
+  left: 400px;
   z-index: 2;
 }
 #makeup{
@@ -42,8 +43,8 @@ p {
   width: 50px;
   height: 50px;
   position: absolute;
-  top: 25%;
-  left: 50%;
+  top: 110px;
+  left: 530px;
   z-index: 1;
 }
 #creative{
@@ -52,8 +53,8 @@ p {
     width: 100px;
     height: 100px;
     position: absolute;
-    top: 33%;
-    left: 47%;
+    top: 275px;
+    left: 500px;
     z-index: 4;
 }
 #pitbull{
@@ -62,7 +63,7 @@ p {
     width: 75px;
     height: 75px;
     position: absolute;
-    top: 38%;
-    left: 60%;
+    top: 370px;
+    left: 410px;
     z-index: 3;
 }
