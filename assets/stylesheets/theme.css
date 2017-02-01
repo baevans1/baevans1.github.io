@@ -67,4 +67,21 @@ p {
     top: 370px;
     left: 510px;
     z-index: 3;
+
 }
+#makeup:hover{
+    color: rgb(20,4,28);
+    background-color: rgb(101,109,122);
+}
+#interior:hover{
+    color: rgb(20,4,28);
+    background-color: rgb(101,109,122);
+  }
+#creative:hover{
+        color: rgb(20,4,28);
+        background-color: rgb(101,109,122);
+      }
+#pitbull:hover{
+        color: rgb(20,4,28);
+        background-color: rgb(101,109,122);
+      }
