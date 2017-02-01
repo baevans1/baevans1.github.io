@@ -23,10 +23,11 @@ p {
   }
 
 #interior, #makeup, #creative, #pitbull{
-  border: 2px solid rgb(101,109,122);
+  border: 4px solid rgb(101,109,122);
   padding: 15px;
   text-align: center;
   vertical-align: middle;
+  font-family: cursive;
   }
 #interior {
   background-color: rgb(169,148,178);
