@@ -8,7 +8,8 @@ body {
   padding: 10px;
   float: left;
   width: 260px;
-  margin: 0px;
+  margin-left: 0;
+  margin-top: 0;
   }
 
 .header {
@@ -18,10 +19,15 @@ body {
   font-size: 1.25em;
   }
 
+img {
+  margin: 0;
+}
+
 p {
-  margin: 0 15px;
+  margin: 15px;
   font-family: 'Ledger', serif;
   text-align: left;
+  color: rgb(209,195,216)
   }
 
 #interior, #makeup, #creative, #pitbull{
