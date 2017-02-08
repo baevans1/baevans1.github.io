@@ -7,18 +7,20 @@ body {
   color: rgb(40,40,40);
   padding: 10px;
   float: left;
-  width: 350px;
+  width: 260px;
+  margin: 0px;
   }
 
 .header {
   padding: 15px;
   text-align: center;
-  font-family: "Pristina Regular" alt: cursive;
+  font-family: 'Dancing Script', cursive;
   font-size: 1.25em;
   }
+
 p {
   margin: 0 15px;
-  font-family: serif;
+  font-family: 'Ledger', serif;
   text-align: left;
   }
 
@@ -27,47 +29,22 @@ p {
   padding: 15px;
   text-align: center;
   vertical-align: middle;
-  font-family: "lucida handwriting" alt: cursive;
+  font-family: 'Ledger', serif;
+
   }
 #interior {
-  background-color: rgb(169,148,178);
-  color: rgb(40,40,40);
-  width: 125px;
-  height: 125px;
-  position: absolute;
-  top: 175px;
-  left: 600px;
-  z-index: 2;
+
+
 }
 #makeup{
-  background-color: rgb(183,84,132);
-  color: rgb(40,40,40);
-  width: 60px;
-  height: 60px;
-  position: absolute;
-  top: 110px;
-  left: 730px;
-  z-index: 1;
+
+
 }
 #creative{
-    background-color: rgb(164,130,178);
-    color: rgb(40,40,40);
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 275px;
-    left: 720px;
-    z-index: 4;
+
 }
 #pitbull{
-    background-color: rgb(191,126,157);
-    color: rgb(40,40,40);
-    width: 75px;
-    height: 75px;
-    position: absolute;
-    top: 380px;
-    left: 630px;
-    z-index: 3;
+
 
 }
 #makeup:hover{
