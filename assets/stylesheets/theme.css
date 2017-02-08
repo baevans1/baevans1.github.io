@@ -24,10 +24,12 @@ img {
 }
 
 p {
-  margin: 15px;
+  position: fixed;
+  margin: 30px;
   padding: 30px;
   font-family: 'Ledger', serif;
-  text-align: center;
+  text-align: left;
+  float: right;
   color: rgb(209,195,216)
   }
 
@@ -40,21 +42,10 @@ p {
   font-family: 'Ledger', serif;
   }
 
-#interior {
-
-
+#makeup {
+  padding: 2em;
 }
-#makeup{
 
-
-}
-#creative{
-
-}
-#pitbull{
-
-
-}
 #makeup:hover{
     color: rgb(20,4,28);
     background-color: rgb(101,109,122);
