@@ -1,84 +1,51 @@
-html, body, a, .header, .sidebar {
+html, body, a {
   margin: 0;
   padding: 0;
   text-decoration: none;
 }
-body {
-  /*background-color: rgb(20,4,28);*/
-  background-color: lavender;
-  display: flex;
-  }
 
 .sidebar {
-  /*background-color: rgb(209,195,216);*/
   background-color: lightsteelblue;
-  color: rgb(40,40,40);
-  /*padding: 10px;*/
-  /*float: left;*/
-  width: 275px;
+  height: 92vh;
   margin-left: 0;
   margin-top: 0;
   }
 
-.header {
-  padding: 15px 0;
-  text-align: center;
-  font-family: 'Dancing Script', cursive;
-  font-weight: bold;
-  font-size: 1.25em;
-  }
-
 img {
   margin: 0;
-  width: 220px;
+  width: 90%;
 }
 
 .main {
-  position: fixed;
-  margin-left: 300px;
   padding: 30px;
   font-family: 'Ledger', serif;
   text-align: left;
-  /*float: right;*/
   color: black;
-
-  }
-
-h4 {
-  border-bottom: 2px solid rgb(101,109,122);
-  /*border-radius: 10px;*/
-  padding: 2rem 0;
-  margin: 0;
-  width: 100%;
-  text-align: center;
-  vertical-align: middle;
-  font-family: 'Ledger', serif;
-  font-size: 1em;
   }
 
 h4:hover{
     color: rgb(20,4,28);
     background-color: rgb(101,109,122);
 }
-img {
-  border-radius: 4px;
-  border: 1px solid #ddd;
-}
+
 img:hover {
   box-shadow: 0 0 4px 2px rgba(0, 140, 186, 0.5);
 }
 .web_thumbnail {
     width: 150px;
     background-color: white;
-    padding: 15px;
+    padding: 22px 15px;
 }
 .thumbnail_box {
   margin: 10px;
   height: 250px;
 }
 #katscostumes {
-  padding: 43.5px 15px;
+  padding: 42.5px 15px;
 }
-#latestcode .main {
-  display: flex;
+#baseballjedi {
+  padding: 39px 15px;
+}
+#fixCakes {
+  padding: 15px 15px;
 }

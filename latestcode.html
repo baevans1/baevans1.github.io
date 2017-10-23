@@ -2,55 +2,87 @@
 <html>
   <head>
     <title>Beth Evans</title>
-    <link rel="stylesheet" type="text/css" href="assets/stylesheets/theme.css">
     <meta content="width=device-width,maximum-scale=1.0,initial-scale=1.0,minimum-scale=1.0,user-scalable=yes" name="viewport">
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/theme.css">
   </head>
 
-  <body id="latestcode">
-    <div class="sidebar">
-      <div class='header'>
-        <h1>Beth Evans</h1>
+  <body>
+    <div class="container-fluid">
+      <div class="row content">
+        <div class="sidenav col-sm-3 text-center sidebar">
+          <div class="well-lg">
+            <h2>Beth Evans</h2>
+      </div>
         <a href="index.html">
-          <img src="assets/images/beth.JPG" alt="Beth" class="thumbnail">
+          <img src="assets/images/beth.JPG" alt="Beth" class="img-rounded">
         </a>
-        <h3></h3>
-        <div class='nav'>
-          <h4 ><a href="https://baevans1.github.io/Fix_Cakes/" target="_blank">Latest Code</a></h4>
-          <h4 >All Things Creative</h4>
-          <h4 >Life</h4>
-        </div>
-      </div><!--end header-->
-    </div>
+        <br><br><br>
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="index.html">Home</a></li>
+          <li class="active nav-list"><a href="latestcode.html">Latest Code</a></li>
+          <li><a href="creative.html">All Things Creative</a></li>
+          <!-- <h4 >Life</h4> -->
+        </div><!--end sidenav-->
 
-    <div class="main">
+    <!-- <div class="main"> -->
+    <div class="col-md-2 col-md-offset-1">
       <div class="thumbnail_box">
         <a target="_blank" href="https://baevans1.github.io/Fix_Cakes/">
-          <img class="web_thumbnail" src="assets/images/fix-logo.png" alt="Fix Cakes">
+          <img class="web_thumbnail" id="fixCakes" src="assets/images/fix-logo2.jpg" alt="Fix Cakes">
           <h3>Fix Cakes</h3>
         </a>
       </div>
+    </div>
+    <div class="col-md-2">
+      <div class="thumbnail_box">
+        <a target="_blank" href="https://baevans1.github.io/jQueryBadgesProject/">
+          <img class="web_thumbnail" src="assets/images/screenshot2.jpg" alt="Codeschool Badges">
+          <h3>Badges Project</h3>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="thumbnail_box">
+        <a target="_blank" href="https://baevans1.github.io/cat_lady_scale/">
+          <img class="web_thumbnail" id="catLady" src="assets/images/cat_lady.jpg" alt="Cat Lady Scale">
+          <h3>Cat Lady Scale</h3>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-2 col-md-offset-1">
+      <div class="thumbnail_box">
+        <a target="_blank" href="https://github.com/baevans1/tictactoe">
+          <img class="web_thumbnail" id="tictactoe" src="assets/images/tictactoe3.jpg" alt="Tic Tac Toe">
+          <h3>Tic Tac Toe</h3>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="thumbnail_box">
+        <a target="_blank" href="https://thebaseballjedi.herokuapp.com/">
+          <img class="web_thumbnail" id="baseballjedi" src="assets/images/Stadium.jpg" alt="The Baseball Jedi">
+          <h3>Baseball Jedi</h3>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-2">
       <div class="thumbnail_box">
         <a target="_blank" href="https://baevans1.github.io/katscostumes/">
           <img class="web_thumbnail" id="katscostumes" src="assets/images/kats-hero-mobile-crop.jpg" alt="Kat's Costumes">
           <h3>Kat's Costumes</h3>
         </a>
       </div>
-      <div class="thumbnail_box">
-        <a target="_blank" href="https://baevans1.github.io/tictactoe/">
-          <img class="web_thumbnail" src="assets/images/fix-logo.png" alt="Tic Tac Toe">
-          <h3>React Tic Tac Toe</h3>
-        </a>
-      </div>
-      <div class="thumbnail">
-        <a target="_blank" href="img_forest.jpg">
-          <img src="img_forest.jpg" alt="Forest">
-        </a>
-      </div>
-
-
-
     </div>
-
+    </div>
+    <footer class="container-fluid panel-footer text-center">
+      <a href="https://github.com/baevans1"><i class="fa fa-github fa-2x"></i></a>
+      <a href="https://codepen.io/bethevans/"><i class="fa fa-codepen fa-2x col-sm-offset-1"></i></a>
+      <a href="https://www.linkedin.com/in/bethevans7/"><i class="fa fa-linkedin fa-2x col-sm-offset-1"></i></a>
+      <a href="https://www.instagram.com/bethkins_87/"><i class="fa fa-instagram fa-2x col-sm-offset-1"></i></a>
+      <a href="mailto:baevans_87@hotmail.com"><i class="fa fa-envelope fa-2x col-sm-offset-1"></i></a>
+    </footer>
 
     <script src='assets/scripts/jquery-3.1.1.min.js'></script>
     <script src='assets/scripts/main.js'></script>
